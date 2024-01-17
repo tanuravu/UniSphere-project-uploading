@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US FORM</title>
+    <link rel="stylesheet"  href="contact.css">
+</head>
+<body>
+    <div class="container">
+<form>
+    <h1>CONTACT US </h1>
+    <input type="text" id="FirstName" placeholder="FirstName" required>
+    <input type="text" id="LastName" placeholder="LastName" required>
+    <input type="email" id="E-Mail" placeholder="E=Mail" required>
+    <input type="text" id="Mobile No." placeholder="Mobile No." required>
+    <h4>Type Your Message here</h4>
+    <textarea required></textarea>
+    <input type="Submit" value="SEND" id="Button">
+
+</form>
+    </div>
+<div id="popup">
+        <p>Thank you! Your message is sent.</p>
+    </div>
+
+    <script>
+        function sendMessage() {
+            // Here you can add the logic to send the message (e.g., using AJAX).
+    
+            // Show the popup message
+            document.getElementById('popup').style.display = 'block';
+    
+            // Hide the popup after 3 seconds
+            setTimeout(function() {
+                document.getElementById('popup').style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

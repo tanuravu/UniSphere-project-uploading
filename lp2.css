@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("back.jpg") no-repeat center center/cover;
+  }
+  
+  header {
+    background-color: #7cb4ac;
+    color: #01171d;
+    padding: 15px 0;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    backdrop-filter: blur(90px);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #7cb4ac;
+    color: #ecf0f1;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .features {
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+   
+  }
+  
+  .feature {
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+  
+  .feature img {
+    max-width: 100px;
+  }
+  
+  .how-it-works {
+    
+    background-color: #ecf0f1;
+    padding: 80px 0;
+    text-align: center;
+    background: url("back.jpg") no-repeat center center/cover;
+    color: white;
+  }
+  
+  .how-it-works h2 {
+    margin-bottom: 40px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+  }
+  
+  .step-number {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .signup {
+    background: url("back.jpg") no-repeat center center/cover;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .signup h2 {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .contactUs{
+    background: url("back.jpg") no-repeat center center/cover;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
